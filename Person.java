@@ -12,6 +12,11 @@ public String getFullName(){
 
 }
 
-
+public void feedPets(){
+	for(Animal animal: animals){
+	animal.eat();
+	System.out.println("Feeding " + animal.getName());
+	}
+}
 
 }
