@@ -11,7 +11,11 @@ public String getFullName(){
 
 
 }
-
+public void introducePets(){
+	for(Animal pet: animals){
+	System.out.println(pet.getName());	
+}
+}
 
 
 }
